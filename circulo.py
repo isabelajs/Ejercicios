@@ -1,0 +1,17 @@
+
+import turtle
+wn = turtle.Screen()
+isa = turtle.Turtle("turtle")
+isa.circle(30)
+isa.penup()
+isa.goto(-30,30)
+isa.pendown()
+isa.left(90)
+isa.forward(90)
+isa.circle(25,180)
+isa.right(0)
+isa.forward(90)
+isa.penup()
+isa.goto(-140,30)
+isa.pendown()
+isa.circle(30)
