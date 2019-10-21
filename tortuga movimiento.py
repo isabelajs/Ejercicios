@@ -7,7 +7,7 @@ wn = turtle.Screen()
 wn.bgcolor("lightblue")
 
 isa = turtle.Turtle("turtle")
-isa.fillcolor("purple")
+isa.fillcolor("purple") #para rellenar adentro de la tortuga
 isa.up()
 isa.goto(-300,50)
 for i in range (100):

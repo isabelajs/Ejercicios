@@ -7,7 +7,7 @@ isa.color("purple")
 
 
 
-#for i in range (3):cle
+#for i in range (3):
     # isa.forward(100)
     # isa.left(120)
 #for i in range (4):
@@ -16,10 +16,5 @@ isa.color("purple")
 # for i in range (8):
 #     isa.forward(100)
 #     isa.left(45)
-for i in range (6):
-    isa.forward(100)
-    isa.left(60)
-
-
 
 wn.exitonclick()
