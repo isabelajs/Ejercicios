@@ -16,5 +16,8 @@ isa.color("purple")
 # for i in range (8):
 #     isa.forward(100)
 #     isa.left(45)
+#for i in range (6):
+#     isa.forward(100)
+#     isa.left(360/6)
 
 wn.exitonclick()
