@@ -11,5 +11,5 @@ for size in range(10):
     tess.stamp()               #marque con la tortuga
     tess.forward(-50)   
     tess.right(40)           
-tess.color("pink")
+tess.color("pink")  # la ultima es la verdad las otras son estampas verifica al darle otro color
 wn.exitonclick()
