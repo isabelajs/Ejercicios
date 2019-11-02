@@ -23,7 +23,7 @@ wn = turtle.Screen()
 wn.setworldcoordinates(0-border, 0-border, 40*numbars+border, maxheight+border)
 wn.bgcolor("lightgreen")
 
-tess = turtle.Turtle()           # create tess and set some attributes
+tess = turtle.Turtle()           
 tess.color("blue")
 tess.fillcolor("red")
 tess.pensize(3)
