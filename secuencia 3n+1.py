@@ -6,7 +6,7 @@ def seq3np1(n):
     count = 0
     # print(n)   # imprime n el número al que queremos evaluar
     while n != 1:
-        if n % 2 == 0:        # n dividido en 2 es igual a 0
+        if n % 2 == 0:        # n es par (even)
             n = n // 2
         else:                 # n is impar (odd)
             n = n * 3 + 1
@@ -15,25 +15,27 @@ def seq3np1(n):
     return count
 
 
-
-
 wn = turtle.Screen()
 wn.bgcolor("light blue")
-wn.setworldcoordinates(0,0.5,110,800)
+wn.setworldcoordinates(0,0.5,270,800)
 
 isa = turtle.Turtle("turtle")
 isa.color("red")
 
-for start in range (1,6):
-    
+maxsofar = 0
+for start in range (1,50):
+    x = int(seq3np1(start))
     isa.left(90)
-    isa.forward(seq3np1(start)*100)
-    isa.write(int(seq3np1(start)*100))
+    isa.forward(x)
+    isa.write(x)
     isa.right(90)
-    isa.forward(20)
+    isa.forward(5)
     isa.right(90)
-    isa.forward(seq3np1(start)*100)
+    isa.forward(x)
     isa.left(90)
+    if maxsofar < x:
+        maxsofar = x
 
+print("es el valor mas grande", maxsofar)
 
 wn.exitonclick()
